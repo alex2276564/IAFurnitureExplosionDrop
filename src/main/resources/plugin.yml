@@ -1,0 +1,4 @@
+name: IAFurnitureExplosionDrop
+version: '${version}'
+main: uz.alex2276564.iafurnitureexplosiondrop.IAFurnitureExplosionDrop
+api-version: '1.16'
