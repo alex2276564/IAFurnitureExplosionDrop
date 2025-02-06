@@ -1,0 +1,45 @@
+name: Question
+description: Ask a question about ItemsAdder Furniture Explosion Drop
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for your interest in ItemsAdder Furniture Explosion Drop!"
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know about the plugin?
+      placeholder: Please be as specific as possible
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - "Installation"
+        - "Explosion Mechanics"
+        - "ItemsAdder Compatibility"
+        - "WorldGuard Interaction"
+        - "Performance"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: server-type
+    attributes:
+      label: Server Type
+      description: What type of server are you running?
+      options:
+        - "Anarchy Server"
+        - "Survival Server"
+        - "Minigame Server"
+        - "Other"
+    validations:
+      required: true

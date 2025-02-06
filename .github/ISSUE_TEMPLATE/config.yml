@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/alex2276564/IAFurnitureExplosionDrop#readme
+    about: Check out the documentation for installation and usage guide
+
+  - name: ItemsAdder Plugin
+    url: https://www.spigotmc.org/resources/itemsadder.73355/
+    about: Check out the required ItemsAdder plugin
