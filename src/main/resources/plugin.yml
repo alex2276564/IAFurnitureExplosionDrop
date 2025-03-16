@@ -1,0 +1,9 @@
+name: IAFurnitureExplosionDrop
+version: '${version}'
+description: "A Minecraft plugin that makes ItemsAdder furniture drop when damaged by explosions. Compatible with TNT, Creepers, Withers, and other explosion sources. Perfect for anarchy servers and minigames!"
+author: alex2276564
+website: https://github.com/alex2276564/IAFurnitureExplosionDrop
+main: uz.alex2276564.iafurnitureexplosiondrop.IAFurnitureExplosionDrop
+api-version: '1.16'
+depend:
+  - ItemsAdder
