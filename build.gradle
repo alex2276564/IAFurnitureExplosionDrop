@@ -34,7 +34,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.12.1'
 }
 
-def targetJavaVersion = 8
+def targetJavaVersion = 16
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion

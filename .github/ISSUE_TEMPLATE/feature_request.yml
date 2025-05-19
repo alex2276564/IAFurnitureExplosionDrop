@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest an idea for ItemsAdder Furniture Explosion Drop
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to suggest a new feature!"
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe the feature you'd like to see added
+      placeholder: A clear and detailed description of what you want to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Describe the situation where this feature would be useful
+      placeholder: "This feature would be useful when..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: compatibility
+    attributes:
+      label: ItemsAdder Compatibility
+      description: Would this feature require specific ItemsAdder features?
+      options:
+        - "No special requirements"
+        - "Requires newer ItemsAdder features"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: explosion-related
+    attributes:
+      label: Explosion Related
+      description: Is this feature related to explosion mechanics?
+      options:
+        - "Yes"
+        - "No"
+        - "Partially"
+    validations:
+      required: true
