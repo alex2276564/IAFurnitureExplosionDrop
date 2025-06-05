@@ -1,4 +1,4 @@
-package uz.alex2276564.iafurnitureexplosiondrop.task;
+package uz.alex2276564.iafurnitureexplosiondrop.runner;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
