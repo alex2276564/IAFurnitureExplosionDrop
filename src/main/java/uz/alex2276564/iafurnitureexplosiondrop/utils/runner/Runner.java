@@ -1,4 +1,4 @@
-package uz.alex2276564.iafurnitureexplosiondrop.runner;
+package uz.alex2276564.iafurnitureexplosiondrop.utils.runner;
 
 import org.jetbrains.annotations.NotNull;
 

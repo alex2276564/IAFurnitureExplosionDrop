@@ -4,8 +4,8 @@ import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import uz.alex2276564.iafurnitureexplosiondrop.listeners.IAFurnitureExplosionListener;
-import uz.alex2276564.iafurnitureexplosiondrop.runner.BukkitRunner;
-import uz.alex2276564.iafurnitureexplosiondrop.runner.Runner;
+import uz.alex2276564.iafurnitureexplosiondrop.utils.runner.BukkitRunner;
+import uz.alex2276564.iafurnitureexplosiondrop.utils.runner.Runner;
 import uz.alex2276564.iafurnitureexplosiondrop.utils.UpdateChecker;
 
 public final class IAFurnitureExplosionDrop extends JavaPlugin {

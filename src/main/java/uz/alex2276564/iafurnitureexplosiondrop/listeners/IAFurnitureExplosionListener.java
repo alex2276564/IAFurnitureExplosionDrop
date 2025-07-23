@@ -15,7 +15,7 @@ import java.util.List;
 public class IAFurnitureExplosionListener implements Listener {
 
     @EventHandler
-    public void onEntityExplode(EntityExplodeEvent event) {
+    public void on(EntityExplodeEvent event) {
         Entity entity = event.getEntity();
 
         // Check entity need because server crash if explosion caused by Ender Dragon
@@ -42,7 +42,7 @@ public class IAFurnitureExplosionListener implements Listener {
     }
 
     @EventHandler
-    public void onFurnitureExplosion(FurnitureExplosionEvent event) {
+    public void on(FurnitureExplosionEvent event) {
         for (Entity furniture : event.getAffectedFurniture()) {
             CustomFurniture.remove(furniture, true);
         }
