@@ -18,8 +18,11 @@ public class IAFurnitureExplosionListener implements Listener {
     public void on(EntityExplodeEvent event) {
         Entity entity = event.getEntity();
 
-        // Check entity need because server crash if explosion caused by Ender Dragon
-        if (isExplosiveEntity(entity)) {
+        /**
+         * Returns true if the entity is a known, safe-to-handle explosion source.
+         * Prevents issues with certain entities (e.g., EnderDragon) that can crash the server.
+         */
+        if (isSupportedExplosiveEntity(entity)) {
             final float explosionRadius = event.getYield() * 3f;
             List<Entity> nearbyEntities = new ArrayList<>(entity.getNearbyEntities(explosionRadius, explosionRadius, explosionRadius));
             List<Entity> affectedFurniture = new ArrayList<>();
@@ -48,7 +51,7 @@ public class IAFurnitureExplosionListener implements Listener {
         }
     }
 
-    private boolean isExplosiveEntity(Entity entity) {
+    private boolean isSupportedExplosiveEntity(Entity entity) {
         return entity instanceof TNTPrimed ||
                 entity instanceof Creeper ||
                 entity instanceof Wither ||

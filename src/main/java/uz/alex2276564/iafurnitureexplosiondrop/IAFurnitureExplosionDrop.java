@@ -15,9 +15,17 @@ public final class IAFurnitureExplosionDrop extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        setupRunner();
-        registerListeners();
-        checkUpdates();
+        try {
+            setupRunner();
+            registerListeners();
+            checkUpdates();
+
+            getLogger().info("IAFurnitureExplosionDrop has been enabled successfully!");
+        } catch (Exception e) {
+            getLogger().severe("Failed to enable IAFurnitureExplosionDrop: " + e.getMessage());
+            e.printStackTrace();
+            getServer().getPluginManager().disablePlugin(this);
+        }
     }
 
     private void setupRunner() {
