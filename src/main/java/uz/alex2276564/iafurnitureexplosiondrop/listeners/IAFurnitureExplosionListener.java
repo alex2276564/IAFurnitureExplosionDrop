@@ -18,9 +18,9 @@ public class IAFurnitureExplosionListener implements Listener {
     public void on(EntityExplodeEvent event) {
         Entity entity = event.getEntity();
 
-        /**
-         * Returns true if the entity is a known, safe-to-handle explosion source.
-         * Prevents issues with certain entities (e.g., EnderDragon) that can crash the server.
+        /*
+          Returns true if the entity is a known, safe-to-handle explosion source.
+          Prevents issues with certain entities (e.g., EnderDragon) that can crash the server.
          */
         if (isSupportedExplosiveEntity(entity)) {
             final float explosionRadius = event.getYield() * 3f;
