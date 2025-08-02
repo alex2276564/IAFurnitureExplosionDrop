@@ -40,10 +40,10 @@ jobs:
         with:
           languages: java-kotlin
 
-      - name: Set up JDK 17
+      - name: Set up JDK 16
         uses: actions/setup-java@main
         with:
-          java-version: 17
+          java-version: 16
           distribution: 'temurin'
 
       - name: Setup Gradle
@@ -62,17 +62,17 @@ jobs:
     steps:
       - uses: actions/checkout@main
 
-      - name: Set up JDK 17
+      - name: Set up JDK 16
         uses: actions/setup-java@main
         with:
-          java-version: 17
+          java-version: 16
           distribution: 'temurin'
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@main
 
       - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/gradle-jdk17@master
+        uses: snyk/actions/gradle-jdk16@master
         #continue-on-error: true # TODO Remove this when snyk will work with gradle v9
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
@@ -116,10 +116,10 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Set up JDK 17
+      - name: Set up JDK 16
         uses: actions/setup-java@main
         with:
-          java-version: 17
+          java-version: 16
           distribution: 'temurin'
 
       - name: Setup Gradle
