@@ -1,7 +1,7 @@
 # ItemsAdder Furniture Explosion Drop 🪑💥
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5+-brightgreen)](https://papermc.io/software/paper)
-[![Java Version](https://img.shields.io/badge/java-16+-orange)](https://adoptium.net/installation/linux/)
+[![Java Version](https://img.shields.io/badge/java-17+-orange)](https://adoptium.net/installation/linux/)
 [![GitHub Release](https://img.shields.io/github/v/release/alex2276564/IAFurnitureExplosionDrop?color=blue)](https://github.com/alex2276564/IAFurnitureExplosionDrop/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -42,9 +42,6 @@
 - **Required Plugins:** [ItemsAdder](https://www.spigotmc.org/resources/itemsadder.73355/)
 - ✅ **Works with all ItemsAdder furniture**
 - ✅ **Full ItemsAdder Compatibility:** Compatible with all versions of ItemsAdder.
-
-## 🔧 Configuration
-The plugin works out of the box with no configuration needed!
 
 ## 🆘 Support
 
