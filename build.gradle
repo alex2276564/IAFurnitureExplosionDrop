@@ -20,6 +20,10 @@ repositories {
     maven {
         url = 'https://jitpack.io'
     }
+    maven {
+        name = "tcoded-releases"
+        url = "https://repo.tcoded.com/releases"
+    }
 }
 
 dependencies {
@@ -34,6 +38,8 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.38'
 
     implementation 'com.google.code.gson:gson:2.13.1'
+
+    implementation 'com.tcoded:FoliaLib:0.5.1'
 }
 
 tasks {
@@ -53,7 +59,9 @@ shadowJar {
 
     mergeServiceFiles()
 
-    relocate 'com.google.gson', 'uz.alex2276564.permguard.libs.gson'
+    relocate 'com.google.gson', 'uz.alex2276564.iafurnitureexplosiondrop.libs.gson'
+
+    relocate 'com.tcoded.folialib', 'uz.alex2276564.iafurnitureexplosiondrop.libs.folialib'
 }
 
 build {

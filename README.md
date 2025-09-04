@@ -37,11 +37,14 @@
 
 ## 🛠️ Compatibility
 
-- **Minecraft Versions:** 1.16.5+
-- **Server Software:** [Paper](https://papermc.io/) (1.16.5 and newer)
+- **Minecraft Versions:** 1.16.5 to the latest release
+- **Server Software:**
+    - ✅ [Paper](https://papermc.io/) (1.16.5 and newer) - **Fully Supported**
+    - ❌ Folia - ItemsAdder does not support Folia at this time
+    - ❌ Spigot - Not supported
 - **Required Plugins:** [ItemsAdder](https://www.spigotmc.org/resources/itemsadder.73355/)
-- ✅ **Works with all ItemsAdder furniture**
-- ✅ **Full ItemsAdder Compatibility:** Compatible with all versions of ItemsAdder.
+- ✅ **Works with all ItemsAdder furniture****
+- ✅ **Full ItemsAdder Compatibility:** Compatible with all versions of ItemsAdder.**
 
 ## 🆘 Support
 

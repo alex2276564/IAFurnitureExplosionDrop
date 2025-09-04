@@ -4,7 +4,7 @@ import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import uz.alex2276564.iafurnitureexplosiondrop.listeners.IAFurnitureExplosionListener;
-import uz.alex2276564.iafurnitureexplosiondrop.utils.runner.BukkitRunner;
+import uz.alex2276564.iafurnitureexplosiondrop.utils.runner.FoliaRunner;
 import uz.alex2276564.iafurnitureexplosiondrop.utils.runner.Runner;
 import uz.alex2276564.iafurnitureexplosiondrop.utils.UpdateChecker;
 
@@ -29,7 +29,12 @@ public final class IAFurnitureExplosionDrop extends JavaPlugin {
     }
 
     private void setupRunner() {
-        runner = new BukkitRunner(this);
+        runner = new FoliaRunner(this);
+        getLogger().info("Initialized " + runner.getPlatformName() + " scheduler support");
+
+        if (runner.isFolia()) {
+            getLogger().info("Folia detected - using RegionScheduler and EntityScheduler for optimal performance");
+        }
     }
 
     private void registerListeners() {
@@ -43,6 +48,8 @@ public final class IAFurnitureExplosionDrop extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        runner.cancelTasks();
+        if (runner != null) {
+            runner.cancelAllTasks();
+        }
     }
 }
