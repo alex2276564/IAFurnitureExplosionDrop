@@ -31,11 +31,11 @@ dependencies {
 
     compileOnly 'com.github.LoneDev6:API-ItemsAdder:3.6.3-beta-14'
 
-    compileOnly 'org.projectlombok:lombok:1.18.38'
-    annotationProcessor 'org.projectlombok:lombok:1.18.38'
+    compileOnly 'org.projectlombok:lombok:1.18.40'
+    annotationProcessor 'org.projectlombok:lombok:1.18.40'
 
-    testCompileOnly 'org.projectlombok:lombok:1.18.38'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.38'
+    testCompileOnly 'org.projectlombok:lombok:1.18.40'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.40'
 
     implementation 'com.google.code.gson:gson:2.13.1'
 
