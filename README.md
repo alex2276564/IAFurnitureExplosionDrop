@@ -46,6 +46,11 @@
 - ✅ **Works with all ItemsAdder furniture**
 - ✅ **Full ItemsAdder Compatibility:** Compatible with all versions of ItemsAdder.
 
+## 📦 Other Plugins
+
+> 🔍 **You can find more of my Minecraft plugins here:**  
+> [https://github.com/alex2276564?tab=repositories](https://github.com/alex2276564?tab=repositories)
+
 ## 🆘 Support
 
 If you encounter any issues or have suggestions for improving the plugin, please create an [issue](https://github.com/alex2276564/IAFurnitureExplosionDrop/issues) in this repository.
