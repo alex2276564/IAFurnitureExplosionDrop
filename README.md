@@ -28,20 +28,17 @@
 ## 📥 Installation
 
 1. **Ensure you have ItemsAdder installed on your server**
-
 2. **Download the latest version from the [Releases](https://github.com/alex2276564/IAFurnitureExplosionDrop/releases) section**
-
 3. **Place the `.jar` file in your server's `plugins` folder**
-
 4. **Restart your server**
 
 ## 🛠️ Compatibility
 
 - **Minecraft Versions:** 1.16.5 to the latest release
 - **Server Software:**
-    - ✅ [Paper](https://papermc.io/) (1.16.5 and newer) - **Fully Supported**
-    - ❌ Folia - ItemsAdder does not support Folia at this time
-    - ❌ Spigot - Not supported
+  - ✅ [Paper](https://papermc.io/) (1.16.5 and newer) - **Fully Supported**
+  - ❌ Folia - ItemsAdder does not support Folia at this time
+  - ❌ Spigot - Not supported
 - **Required Plugins:** [ItemsAdder](https://www.spigotmc.org/resources/itemsadder.73355/)
 - ✅ **Works with all ItemsAdder furniture**
 - ✅ **Full ItemsAdder Compatibility:** Compatible with all versions of ItemsAdder.
