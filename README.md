@@ -18,6 +18,7 @@
 - 🔄 **Auto-Update Check:** Automatically checks for new versions on server start
 
 ## 🎮 Supported Explosion Sources
+
 - TNT (Perfect for raids!)
 - Creepers
 - Withers
