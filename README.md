@@ -4,6 +4,7 @@
 [![Java Version](https://img.shields.io/badge/java-17+-orange)](https://adoptium.net/installation/linux/)
 [![GitHub Release](https://img.shields.io/github/v/release/alex2276564/IAFurnitureExplosionDrop?color=blue)](https://github.com/alex2276564/IAFurnitureExplosionDrop/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
 **ItemsAdder Furniture Explosion Drop** is an addon for the ItemsAdder Minecraft plugin that makes furniture items drop when damaged by explosions. Ideal for anarchy servers, bringing chaotic realism to your world!
 
